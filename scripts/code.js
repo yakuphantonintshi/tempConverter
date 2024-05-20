@@ -5,4 +5,3 @@ function convert(){
     result.innerHTML = "°C to °F is: " + fahrenheit.toFixed(2)
     document.getElementById('result').innerText = `${celsius}°C is equal to ${fahrenheit.toFixed(2)}°F`; 
 }
-
