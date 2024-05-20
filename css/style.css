@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 50%;
+    width: 30%;
+    gap: 15px;
+    font-size: 25px;
+    padding: 8px;
+}
+.click{
+    width: 20%;
+    height: 15%;
+}
+h2{
+    color: purple;
+    text-decoration: underline;
+}
